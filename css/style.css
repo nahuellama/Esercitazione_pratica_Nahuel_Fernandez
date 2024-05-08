@@ -1,0 +1,456 @@
+body{
+    background-color: #4A9E9E;
+    color: black;
+    font-family: "Satoshi", sans-serif;
+    margin: 0%;}
+
+img {
+    object-fit: cover;
+}
+
+header{
+        max-width: 100%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #000;
+        color:white;} 
+
+    
+
+header nav ul {
+        display: flex;
+        list-style-type: none;
+        gap: 40px;
+        align-items: center;
+        max-width: max-content;}
+
+header nav ul a{
+            text-decoration: none; 
+            font-size: 24px;
+            font-weight: bolder;
+            color: white;
+            margin-right: 60px;}
+
+header .gohome{
+            font-size: 32px;
+            font-family: "Jura", sans-serif;
+            font-weight: bold;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 60px;
+            text-decoration: none;
+        color: white;}
+               
+               
+        section.hero img {
+            width: 100%;}
+
+        section.hero h1 {
+            font-size: 96px;
+            text-align: center;
+            margin: 10px;
+            font-weight: bolder;}
+
+        section.hero h2 {
+            font-size: 56px;
+            font-weight: bolder;
+        padding-left: 40px;}
+
+        section.hero p{
+            font-size: 28px;
+            max-width: 800px;
+            margin-top: 80px;
+            margin-bottom: 80px;
+             font-weight: 500;
+            padding-left: 40px;}
+
+           
+        section.info {
+            background-color: #000;
+            color: white;
+            max-width: 100%;
+            display:flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            margin-bottom: 30px;
+           }
+
+            a.art{
+            text-decoration: none;
+            color: #000;
+           }
+
+section.info div {
+    flex: 1;
+    border-left: 5px solid #fff;
+   margin-left: 20px;
+    padding-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+        
+                       
+                       
+     section.guestartist div.riga1{
+                            display: grid;
+                            grid-template-columns: 2fr 1fr 1fr;
+                            grid-gap: 10px;
+                            margin: 10px;
+            
+                        }
+
+                        section.guestartist div.riga1 h1{
+                            font-size: 96px;
+                            font-weight: bolder;
+                            text-align: center;
+                            margin-top: 200px;
+                        }
+
+                        
+                            section.guestartist div.riga1 img{
+                            object-fit: cover;
+                            width: 100%;
+                            height: 100%;
+                        }
+
+
+                        section.guestartist div.riga2{
+                            display: grid;
+                            grid-template-columns: 1fr 1fr 1fr 1fr;
+                            grid-gap: 10px;
+                            margin: 10px;
+                        }
+
+                        section.guestartist div.riga2 img{
+                            object-fit: cover;
+                            width: 100%;
+                            height: 100%;
+                        }
+
+                        section.guestartist div.riga3{
+                            display: grid;
+                            grid-template-columns: 1fr 1fr 1fr 1fr;
+                            grid-gap: 10px;
+                            margin: 10px;
+                        }
+
+                        section.guestartist div.riga3 img{
+                            object-fit: cover;
+                            width: 100%;
+                            height: 100%;
+                        }
+
+                        section.guestartist p {
+                            font-size: 36px;
+                            max-width: 700px;
+                            margin-top: 80px;
+                            margin-bottom: 80px;
+                            margin-left: auto;
+                            margin-right: auto;
+                        
+                            font-weight: bold;}
+
+footer{
+       max-width: 100%;
+       background-color: #000;
+       color: white;
+       display:flex;
+       padding:auto;
+       flex: 1;
+       margin-top: 200px;} 
+
+  footer nav ul{padding: 0, 100px}
+
+                            footer h1{
+                                font-size: 48px;
+                                font-weight: bolder;
+                                 
+                                font-family: "Jura", sans-serif;
+                                font-weight: bold;
+                                align-content: center;
+                            }
+
+                              
+                                footer nav ul a{
+                                    text-decoration: none; 
+                                    font-size: 20px;
+                                    color: white;
+                                    font-weight: 100;
+                                  }
+
+                                footer nav ul li{
+                                    list-style-type:none;
+                                    display: flex;
+                                    text-align:center;
+                                }
+
+                                footer div{
+                                    flex: 1;
+                                    padding: 20px;
+                                
+                                }
+                                footer h2{
+                                    flex: 1;
+                                    padding-left: 40px;
+                                    font-size: 32px;
+                                    
+                                }
+                                footer h3{
+                                    font-size: 32px;
+                                   margin-top: 26.56px;
+
+                                }
+                               
+                                
+                            
+
+                                footer div.mail div.latua{
+                                    background-color: white;
+                                    color: #000;
+                                    padding-left: 40px;
+                                    padding: 0px;
+                                }
+                                    
+                                footer div.mail p {
+                                    font-size: 20px;}
+
+
+
+
+body.infopage{
+    background-color: #CAD45A;
+    color: black;
+    font-family: "Satoshi", sans-serif;
+    margin: 0%;}
+
+    main.infopage h1{
+        font-size: 96px;
+        font-weight: bolder;
+        padding-left: 40px;
+    }
+
+    main.infopage p {
+            font-size: 28px;
+            max-width: 900px;
+            margin-top: 80px;
+            margin-bottom: 80px;
+            padding-left: 40px;}
+           
+    main.infopage p.luogo {
+        font-size: 32px;
+        font-weight: bold;}
+
+    main.infopage h2{
+        font-size: 64px;
+        font-weight: bold;
+        padding-left: 40px;
+        margin-top: 300px;}
+
+    main.infopage p.bimbi{
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+
+
+    body.mostra {
+        background-color: #A585C5;
+    color: black;
+    font-family: "Satoshi", sans-serif;
+    margin: 0%;}
+
+    body.mostra h1.mostra{
+        font-size: 96px;
+        font-weight: bolder;
+        padding-left: 40px;}
+
+    body.mostra img {
+        width: 100%;}
+
+    body.mostra h2.mostra {
+        font-size: 32px;
+        padding-left: 40px;}
+
+   main.mostra div.pmostra{
+    font-size: 28px;
+            max-width: 900px;
+            margin-top: 30px;
+            margin-bottom: 80px;
+            padding-left: 40px;}
+
+
+
+
+body.artisti{
+    background-color:  #82D7AE;
+    color: black;
+    font-family: "Satoshi", sans-serif;
+    margin: 0%;}
+
+body.artisti img{
+    max-width: 100%;
+}
+
+body.artisti h4{
+        font-size: 96px;
+        font-weight: bolder;
+        padding-left: 40px;
+    margin-top: 64.32px;
+margin-bottom: 64.32px}
+
+body.artisti p.artisti{
+            font-size: 28px;
+            font-weight: 400;
+            max-width: 900px;
+            margin-top: 150px;
+            margin-bottom: 150px;
+            padding-left: 40px;}
+
+section.cardartisti{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 40px;
+    margin: 40px;}
+
+section.card{
+    width:100%;
+    height: 700px;
+
+  }
+
+section.card img {
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+}
+
+section.card p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-left: 0%;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+
+
+
+
+
+body.illustrator{
+    background-color:  #82D7AE;
+    color: black;
+    font-family: "Satoshi", sans-serif;
+    margin: 0%;}
+
+
+section.bio{
+    display: flex;
+}
+section.bio img{
+    max-width: 50%;
+}
+
+section.bio h5 {
+    font-size: 96px;
+    font-weight: bolder;
+    padding-left: 40px;
+margin-top: 64.32px;
+margin-bottom: 64.32px}
+
+section.bio p{
+    font-size: 28px;
+    max-width: 900px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;}
+
+h6{
+    font-size: 81px;
+    font-weight: bold;
+    padding-left: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;}
+
+    section.gallery{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        gap: 40px;
+        margin: 40px;}
+
+        section.gallery img{
+            width: 100%;
+            height: 100%;
+        }
+
+
+
+
+
+         @media screen and (max-width:600px){
+           
+            header {flex-direction: column;}
+            header nav ul a {font-size: 18px;}
+            section.hero h1 {font-size: 64px;}
+            header .gohome {font-size: 32px;}
+            section.hero h2 {font-size: 48px;}
+            section.hero p {font-size: 32px;}
+            section.info {flex-direction: column;margin-top: 20px;margin-bottom: 20px;max-width: 100%;}
+            section.guestartist div.riga1 h1{font-size: 32px;margin-top: 50px;}
+            section.guestartist div.riga1 img {height: 146.385px;}
+            section.guestartist p{font-size: 28px;padding-left: 40px;}
+            footer{flex-direction: column;}
+            footer h1 {font-size: 40px; padding-left: 40px;}
+            footer h2 {font-size: 32px;}
+
+
+            section.cardartisti {grid-template-columns: 1fr;}
+
+            section.bio{flex-direction: column;}
+            section.bio img{max-width: 100%;}
+            section.gallery{margin: 0px;padding: 10px;}
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+         } 
+
+
+
+
+   
+                             
+
+
+                                    
+
+                            
+
+    
+
+
+                       
+                            
+                        
+            
+
